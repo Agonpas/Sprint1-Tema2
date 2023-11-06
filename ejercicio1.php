@@ -1,5 +1,5 @@
 
-<? php:
+<?php
 // definimos los distintos tipos de variables
 $integer = 49;
 $double = 3.14;
