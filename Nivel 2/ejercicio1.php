@@ -13,6 +13,7 @@ function precioLlamada ($duracion_llamada) {
         return $mensaje_error;
     }
 }
-$duracion_llamada = 5;
+echo "Ingrese los minutos de duración de la llamada: ";
+$duracion_llamada = fgets(STDIN);
 echo "El coste total de la llamada es de: " . precioLlamada($duracion_llamada) . " euros";
 ?>
